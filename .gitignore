@@ -1,0 +1,29 @@
+# Build directories and files
+build/
+*.o
+*.so
+*.a
+*.out
+*.exe
+netanim
+
+# Qt build cache
+*.moc
+*.qrc
+*.obj
+
+# Simulation outputs
+*.pcap
+*.tr
+*.log
+*.xml
+*.ns_mov
+*.rawdata
+
+# VSCode / JetBrains IDE settings (optional)
+.vscode/
+.idea/
+
+# OS junk files
+.DS_Store
+Thumbs.db

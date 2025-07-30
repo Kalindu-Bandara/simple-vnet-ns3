@@ -2,7 +2,7 @@
 
 
 
-!\[VANET Simulation](https://via.placeholder.com/800x400.png?text=VANET+Visualization) <!-- Add actual screenshot later -->
+
 
 
 
@@ -10,7 +10,7 @@ Simulation framework for Vehicular Ad-hoc Networks (VANETs) using \*\*NS-3.45\*\
 
 
 
-\## 🔧 Software Requirements
+## 🔧 Software Requirements
 
 | Component        | Version           | Notes                          |
 
@@ -32,15 +32,15 @@ Simulation framework for Vehicular Ad-hoc Networks (VANETs) using \*\*NS-3.45\*\
 
 
 
-\## 🚀 Quick Start
+## 🚀 Quick Start
 
 
 
-\### 1. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 
-\# Install SUMO dependencies
+# Install SUMO dependencies
 
 sudo apt update \&\& sudo apt install -y g++ python3 cmake ninja-build git \\
 
@@ -50,7 +50,7 @@ libgdk-pixbuf2.0-dev libgl2ps-dev python3-pyproj python3-matplotlib
 
 
 
-\# Install NS-3 dependencies
+# Install NS-3 dependencies
 
 sudo apt install -y gcc g++ python3 python3-dev python3-setuptools \\
 
@@ -58,7 +58,7 @@ python3-pip qt5-default mercurial
 
 
 
-\#Install SUMO
+#Install SUMO
 
 
 
@@ -76,7 +76,7 @@ sudo make install
 
 
 
-\#Install NS-3.45
+#Install NS-3.45
 
 
 
@@ -94,11 +94,11 @@ cd ns-allinone-3.45/ns-3.45
 
 
 
-\#🗺️ Mobility Generation Workflow
+##🗺️ Mobility Generation Workflow
 
 
 
-\##1. Generate Scenario
+###1. Generate Scenario
 
 
 
@@ -124,7 +124,7 @@ python3 osmWebWizard.py
 
 
 
-\##Generate NS-2 Mobility Trace
+###Generate NS-2 Mobility Trace
 
 
 
@@ -136,7 +136,7 @@ mv mobility.tcl ~/
 
 
 
-\#📡Running VANET Simulation
+##📡Running VANET Simulation
 
 
 
@@ -154,7 +154,7 @@ cd ~/ns-allinone-3.45/ns-3.45
 
 
 
-\## ⚙️ Simulation Parameters
+## ⚙️ Simulation Parameters
 
 
 
@@ -174,11 +174,11 @@ cd ~/ns-allinone-3.45/ns-3.45
 
 
 
-\## 📊 Visualization (Optional)
+## 📊 Visualization (Optional)
 
 
 
-\### 1. Enable NetAnim in Code
+### 1. Enable NetAnim in Code
 
 
 
@@ -198,7 +198,7 @@ AnimationInterface anim("vehicularmobility.xml");
 
 
 
-\### 2. Run NetAnim
+### 2. Run NetAnim
 
 
 
@@ -212,7 +212,7 @@ Load the generated  vehicularmobility.xml file in NetAnim
 
 
 
-\## 📂 Project Structure
+## 📂 Project Structure
 
 
 
@@ -232,7 +232,7 @@ Load the generated  vehicularmobility.xml file in NetAnim
 
 
 
-\## ⚠️ Important Notes
+## ⚠️ Important Notes
 
 
 

@@ -1,4 +1,4 @@
-\# 🚗 VANETs Simulation Using NS-3.45, SUMO v1\_24\_0 \& TraCI on WSL2
+# 🚗 VANETs Simulation Using NS-3.45, SUMO v1\_24\_0 \& TraCI on WSL2
 
 
 

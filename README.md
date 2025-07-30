@@ -38,7 +38,7 @@ Simulation framework for Vehicular Ad-hoc Networks (VANETs) using \*\*NS-3.45\*\
 
 ### 1. Install Dependencies
 
-```bash
+
 
 # Install SUMO dependencies
 
